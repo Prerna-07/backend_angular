@@ -10,15 +10,16 @@ public class Bday {
     private String id;
     private String name;
     private int age;
+    private String dob;
 
     public Bday() {
     }
 
-    public Bday(String id, String name, int age)
+    public Bday(String id, String name, String dob)
     {
         this.id = id;
         this.name = name;
-        this.age = age;
+        this.dob = dob;
     }
 
     public String getId() {
@@ -37,11 +38,11 @@ public class Bday {
         this.name = name;
     }
 
-    public int getAge() {
-        return age;
+    public String getDob() {
+        return dob;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setAge(String dob) {
+        this.dob = dob;
     }
 }

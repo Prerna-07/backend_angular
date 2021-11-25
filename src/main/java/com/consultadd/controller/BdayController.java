@@ -4,7 +4,7 @@ import com.consultadd.model.Bday;
 import com.consultadd.service.BdayService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("http://localhost:4200") // http://localhost:3000 for react
 @RestController
 public class BdayController {
 
